@@ -81,7 +81,7 @@ def fit_ellipse(mask):
     return result
 
 
-
+"""
 class TumorConfig(Config):    
     NAME = 'lung_tumor'    
     LOSS_WEIGHTS = {
@@ -577,3 +577,5 @@ ax = plot_trajectory(ax, angles[:], couch_long[:], model_name='GT',  direction='
 
 f, ax = plt.subplots(1, figsize=(20, 4))
 ax = plot_trajectory(ax, angles[:], couch_lat[:], model_name='GT',  direction='LR', color='green', lim=16, angle_interval = 40, max_angle = 360)
+
+"""
